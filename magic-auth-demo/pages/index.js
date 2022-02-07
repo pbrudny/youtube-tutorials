@@ -18,7 +18,7 @@ export default function Home() {
     await authenticate({
       provider: "magicLink",
       email: email,
-      apiKey: "pk_test_7967AF810E630E08",
+      apiKey: "pk_live_7BF399A1FE4A1C1F",
       network: "kovan",
     });
   };

